@@ -1,4 +1,6 @@
 from .models import Details
+from django import forms
+from django.contrib.auth.forms import 
 #......
 class NewDetailsForm(forms.ModelForm):
     class Meta:
